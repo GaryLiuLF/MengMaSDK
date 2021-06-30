@@ -1,0 +1,6 @@
+framework module MengMaSDK {
+  umbrella header "MengMaSDK.h"
+
+  export *
+  module * { export * }
+}
