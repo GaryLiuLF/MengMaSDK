@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.resource  = "Resources/MengMaSDK.bundle"
   # =>  s.resources = "Resources/*.png"
-  s.ios.vendored_frameworks = 'FrameworkFramework/MengMaSDK.framework'
+  s.ios.vendored_frameworks = 'Frameworks/MengMaSDK.framework'
 
   s.frameworks = 'UIKit','Foundation'
 end
