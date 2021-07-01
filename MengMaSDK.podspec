@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary          = 'MengMaSDK.'
   # 详细描述
   s.description      = <<-DESC
-                          MengMaSDK
+                          MengMaSDKMengMaSDKMengMaSDKMengMaSDK
                        DESC
   # 项目的主页
   s.homepage         = 'https://github.com/GaryLiuLF/MengMaSDK'
