@@ -1,14 +1,25 @@
 :Pod::Spec.new do |s|
-    s.name         = "MengMaSDK"
-    s.version      = "1.0.0"
-    s.ios.deployment_target = '9.0'
-    s.summary      = "MengMaSDK."
-    s.homepage     = "https://github.com/GaryLiuLF/MengMaSDK"
-    s.license              = { :type => "MIT", :file => "LICENSE" }
-    s.author             = { "GaryLiuLF" => "2365637371@qq.com" }
-    s.source       = { :git => "https://github.com/GaryLiuLF/MengMaSDK", :tag => s.version }
-    s.resources          = "Resource/Resource.bundle"
-    s.frameworks = 'Foundation', 'UIKit', 'CoreLocation'
-    s.vendored_frameworks = 'MengMaSDK.framework'
-    s.requires_arc = true
+  s.version      = "1.0.0"
+  s.summary      = "Test For FrameworkTestTool."
+  s.description  = <<-DESC
+                      测试
+                  DESC
+  s.homepage     = "https://github.com/GaryLiuLF/MengMaSDK.git"
+
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
+
+  s.platform     = :ios
+  s.ios.deployment_target = "8.0"
+
+  s.source       = { :git => "https://github.com/GaryLiuLF/MengMaSDK.git", :tag => "#{s.version}" }
+
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
+
+  s.resource  = "Resources/MengMaSDK.bundle"
+  # =>  s.resources = "Resources/*.png"
+  s.ios.vendored_frameworks = 'FrameworkFramework/MengMaSDK.framework'
+
+  s.frameworks = 'UIKit','Foundation'
 end
