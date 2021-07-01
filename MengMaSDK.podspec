@@ -1,7 +1,7 @@
 :Pod::Spec.new do |s|
     s.name         = "MengMaSDK"
     s.version      = "1.0.0"
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '9.0'
     s.summary      = "MengMaSDK."
     s.homepage     = "https://github.com/GaryLiuLF/MengMaSDK"
     s.license              = { :type => "MIT", :file => "LICENSE" }
