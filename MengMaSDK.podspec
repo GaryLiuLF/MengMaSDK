@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.author           = { 'GaryLiuLF' => '2365637371@qq.com' }
 # git仓库的https地址
   s.source           = { :git => 'https://github.com/GaryLiuLF/MengMaSDK.git', :tag => s.version.to_s }
-  s.source_files     = "Frameworks/MengMaSDK.framework/Headers/*.{h}"
+  s.source_files     = 'Frameworks/MengMaSDK.framework/Headers/*.{h}'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.platform         = :ios, "9.0"
+  s.platform         = :ios, '9.0'
 # 项目的最低版本支持
   s.ios.deployment_target = '9.0'
   s.resource_bundles = {
