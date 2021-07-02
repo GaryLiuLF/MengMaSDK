@@ -20,11 +20,17 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/GaryLiuLF/MengMaSDK.git', :tag => s.version.to_s }
   s.source_files     = "Frameworks/MengMaSDK.framework/Headers/*.{h}"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.platform         = :ios, "9.0"
 # 项目的最低版本支持
-  s.ios.deployment_target = '8.0'
-  s.resource  = "Resources/MengMaSDK.bundle"
+  s.ios.deployment_target = '9.0'
+  s.resource_bundles = {
+     'MengMaSDKResource' => ['Resources/MengMaSDKResource.bundle']
+  }
   # =>  s.resources = "Resources/*.png"
   s.ios.vendored_frameworks = 'Frameworks/MengMaSDK.framework'
 
   s.frameworks = 'UIKit','Foundation'
+
+  s.requires_arc = true
+
 end

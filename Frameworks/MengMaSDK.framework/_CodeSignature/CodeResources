@@ -4,17 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MengMaResult.h</key>
-		<data>
-		l1wqINWjV1Baz+ZwDVv6ot8DQ4E=
-		</data>
 		<key>Headers/MengMaSDK.h</key>
 		<data>
-		DrNYowY/aSDJLZ9KKM4oP4IZFgQ=
+		KUfnH6H5RgqY7qA9eqGSP7fsF8M=
+		</data>
+		<key>Headers/TestObject.h</key>
+		<data>
+		64xZfTULJMgWlvEiqzG+cHg62WY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xuL9EGUlnDgW+cJoqkR3xcZzaHk=
+		0LdoBbr+dpoVnYkWn/G5dejKehY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,26 +23,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MengMaResult.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l1wqINWjV1Baz+ZwDVv6ot8DQ4E=
-			</data>
-			<key>hash2</key>
-			<data>
-			58lbqeobd6XC/czV6zRsymnn8ih/XgDra5yWGYoWM8w=
-			</data>
-		</dict>
 		<key>Headers/MengMaSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DrNYowY/aSDJLZ9KKM4oP4IZFgQ=
+			KUfnH6H5RgqY7qA9eqGSP7fsF8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Ip0iA9oPrd1TfFYBx+FsFNJZQB63ByFf23V56YxxVY=
+			2+7w/Y1dClU3mhw7S71n8J1ehml+Ae597z63Ead9oVs=
+			</data>
+		</dict>
+		<key>Headers/TestObject.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			64xZfTULJMgWlvEiqzG+cHg62WY=
+			</data>
+			<key>hash2</key>
+			<data>
+			HS9nMIggSdkw8g7Do5fdYwvSULnZKRzVu8GWRm7nZhw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
