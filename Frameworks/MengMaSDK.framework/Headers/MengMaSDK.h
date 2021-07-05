@@ -2,18 +2,32 @@
 //  MengMaSDK.h
 //  MengMaSDK
 //
-//  Created by 电信中国 on 2021/7/2.
+//  Created by 电信中国 on 2021/6/8.
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <MengMaSDK/MengMaResult.h>
 
-//! Project version number for MengMaSDK.
-FOUNDATION_EXPORT double MengMaSDKVersionNumber;
+NS_ASSUME_NONNULL_BEGIN
 
-//! Project version string for MengMaSDK.
-FOUNDATION_EXPORT const unsigned char MengMaSDKVersionString[];
+@interface MengMaSDK : NSObject
 
-// In this header, you should import all the public headers of your framework using statements like #import <MengMaSDK/PublicHeader.h>
+/**
+ 开始SDK，进入H5
 
-#import <MengMaSDK/TestObject.h>
+ @param phone 用户手机号
+ @param uid 用户ID
+ @param appid 应用ID
+ @param viewController 视图控制器。
+ @param completion 结果回调。
+ */
++ (void)startWithUserPhone:(NSString *)phone
+                       uid:(NSString *)uid
+                     appid:(NSString *)appid
+            viewController:(UIViewController *)viewController
+                completion:(MengMaCompletion _Nullable)completion;
 
+@end
+
+NS_ASSUME_NONNULL_END
